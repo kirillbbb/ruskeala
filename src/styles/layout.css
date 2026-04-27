@@ -1,0 +1,57 @@
+.container {
+    padding: 30px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    transition: background 0.4s ease;
+}
+
+.page {
+    padding: 20px;
+}
+
+/* HEADER */
+
+.header {
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    z-index: 10;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #1B4332;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav a {
+    color: #555;
+}
+
+.nav a.active {
+    color: #1B4332;
+    font-weight: 700;
+}
+
+.back-btn {
+    background: #eee;
+    border-radius: 8px;
+    padding: 6px 10px;
+}

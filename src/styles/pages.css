@@ -1,0 +1,36 @@
+/* ФОНЫ ЭПОХ */
+
+.epoch-past {
+    background: linear-gradient(to bottom, #dbeafe, #eff6ff);
+}
+
+.epoch-mining {
+    background: linear-gradient(to bottom, #e7e5e4, #d6d3d1);
+}
+
+.epoch-modern {
+    background: linear-gradient(to bottom, #dcfce7, #f0fdf4);
+}
+
+/* ИЗОБРАЖЕНИЕ */
+
+.point-image {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.point-image:hover {
+    transform: scale(1.02);
+}
+.fade {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.fade.hidden {
+    opacity: 0;
+}

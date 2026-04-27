@@ -42,6 +42,7 @@ button:hover {
     border-radius: 999px;
     gap: 4px;
     width: fit-content;
+
 }
 
 .epoch-btn {
@@ -50,6 +51,7 @@ button:hover {
     background: transparent;
     font-size: 14px;
     transition: all 0.2s;
+
 }
 
 .epoch-btn.active {

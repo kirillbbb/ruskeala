@@ -12,7 +12,7 @@ export default function EpochSwitcher({ epoch, setEpoch }: Props) {
                 className={`epoch-btn ${epoch === "past" ? "active" : ""}`}
                 onClick={() => setEpoch("past")}
             >
-                Древнее море
+                Древность
             </button>
 
             <button

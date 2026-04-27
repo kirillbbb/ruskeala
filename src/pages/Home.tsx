@@ -1,24 +1,35 @@
 import { Link } from "react-router-dom";
 import { points } from "../data/points";
+import "../styles/home.css";
 
 export default function Home() {
     return (
-        <div className="container">
-            <h1>Рускеала: путешествие сквозь эпохи</h1>
-            <p>Интерактивный туристический маршрут</p>
+        <div>
 
-            <Link to="/map">
-                <button className="primary">Начать маршрут</button>
-            </Link>
+            <div className="hero">
+                <div className="hero-overlay">
+                    <h1>Рускеала: путешествие сквозь эпохи</h1>
+                    <p>Интерактивный туристический маршрут</p>
 
-            <h2 style={{ marginTop: 30 }}>Точки маршрута</h2>
-
-            <div style={{ display: "grid", gap: 10 }}>
-                {points.map(p => (
-                    <Link key={p.id} to={`/point/${p.id}`}>
-                        <div className="card">{p.title}</div>
+                    <Link to="/map">
+                        <button className="primary hero-btn">
+                            Начать маршрут
+                        </button>
                     </Link>
-                ))}
+                </div>
+            </div>
+
+
+            <div className="container">
+                <h2>Точки маршрута</h2>
+
+                <div className="points-grid">
+                    {points.map(p => (
+                        <Link key={p.id} to={`/point/${p.id}`}>
+                            <div className="card">{p.title}</div>
+                        </Link>
+                    ))}
+                </div>
             </div>
         </div>
     );

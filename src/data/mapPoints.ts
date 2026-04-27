@@ -2,10 +2,10 @@ export const mapPoints: Record<
     number,
     { top: string; left: string }
 > = {
-    1: { top: "73%", left: "40%" },
-    2: { top: "52%", left: "35%" },
-    3: { top: "60%", left: "5%" },
-    4: { top: "30%", left: "65%" },
-    5: { top: "50%", left: "75%" },
-    6: { top: "65%", left: "85%" }
+    1: { top: "86%", left: "49%" },
+    2: { top: "59%", left: "43%" },
+    3: { top: "68%", left: "10%" },
+    4: { top: "55%", left: "64%" },
+    5: { top: "32%", left: "62%" },
+    6: { top: "11%", left: "62%" }
 };

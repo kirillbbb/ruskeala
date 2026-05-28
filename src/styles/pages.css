@@ -20,7 +20,7 @@
     object-fit: cover;
     border-radius: 16px;
     margin-bottom: 20px;
-    transition: transform 0.3s;
+    transition: transform 0.2s;
     margin-top: 20px;
 }
 
@@ -29,7 +29,7 @@
 }
 .fade {
     opacity: 1;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.2s ease;
 }
 
 .fade.hidden {
